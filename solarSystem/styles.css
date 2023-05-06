@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    background: #111;
+}
+
+.sun1 {
+
+}
+
+#p-sun {
+    width: 45vw;
+    position: absolute;
+    left: -30vw;
+}
+
+.sun2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 0vw;
+    top: 50vh;
+}
+
+.sun1:hover > .sun2 {
+    visibility: visible;
+}
+
+.mercury1 {
+
+}
+
+#p1 {
+    width: 2vw;
+    position: absolute;
+    left: 15vw;
+    top: 52vh;
+}
+
+.mercury2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 6vw;
+    top: 50vh;
+}
+
+.mercury1:hover > .mercury2 {
+    visibility: visible;
+}
+
+.venus1 {
+
+}
+
+#p2 {
+    width: 3vw;
+    position: absolute;
+    left: 25vw;
+    top: 51vh;
+}
+
+.venus2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 16vw;
+    top: 50vh;
+}
+
+.venus1:hover > .venus2 {
+    visibility: visible;
+}
+
+.earth1 {
+
+}
+
+#p3 {
+    width: 5vw;
+    position: absolute;
+    left: 35vw;
+    top: 50vh;
+}
+
+.earth2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 26vw;
+    top: 50vh;
+}
+
+.earth1:hover > .earth2 {
+    visibility: visible;
+}
+
+.mars1 {
+
+}
+
+#p4 {
+    width: 2vw;
+    position: absolute;
+    left: 45vw;
+    top: 52vh;
+}
+
+.mars2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 36vw;
+    top: 50vh;
+}
+
+.mars1:hover > .mars2 {
+    visibility: visible;
+}
+
+.jupiter1 {
+
+}
+
+#p5 {
+    width: 15vw;
+    position: absolute;
+    left: 50vw;
+    top: 45vh;
+}
+
+.jupiter2{
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 46vw;
+    top: 50vh;
+}
+
+.jupiter1:hover > .jupiter2 {
+    visibility: visible;
+}
+
+.saturn1 {
+}
+
+#p6 {
+    width: 12vw;
+    position: absolute;
+    left: 65vw;
+    top: 47vh;
+}
+
+.saturn2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 60vw;
+    top: 50vh;
+}
+
+.saturn1:hover > .saturn2 {
+    visibility: visible;
+}
+
+.uranus1 {
+}
+
+#p7 {
+    width: 5vw;
+    position: absolute;
+    left: 80vw;
+    top: 50vh;
+}
+
+.uranus2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 70vw;
+    top: 50vh;
+}
+
+.uranus1:hover > .uranus2 {
+    visibility: visible;
+}
+
+.neptune1 {
+}
+
+#p8 {
+    width: 5vw;
+    position: absolute;
+    left: 90vw;
+    top: 50vh;
+}
+
+.neptune2 {
+    border: 2px white grey;
+    color: white;
+    background: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    opacity:0.6;
+    left: 75vw;
+    top: 50vh;
+}
+
+.neptune1:hover > .neptune2 {
+    visibility: visible;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
