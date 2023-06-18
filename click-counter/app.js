@@ -5,19 +5,18 @@ let count = -1
 
 function increment() {
 
-    count = count + 1
+    count += 1
     countEl.innerText = count 
-    console.log(count)
 
 }
-
-increment()
 
 function save(){
 
-    saveEl.innerText  = count
-    console.log(count)
-    
+    let saverClicks = " " + count + " - "
+    saveEl.innerText += saverClicks 
+    count = 0
+    countEl.innerText = count
 }
 
+increment()
 save()
