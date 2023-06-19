@@ -12,7 +12,7 @@ function increment() {
 
 function save(){
 
-    let saverClicks = " " + count + " - "
+    let saverClicks = "Saves: " + count + "\n"
     saveEl.innerText += saverClicks 
     count = 0
     countEl.innerText = count
