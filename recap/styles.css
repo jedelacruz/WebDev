@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec1 {
+    background-color: aqua;
+}
+
+#sec2 {
+    background-color: blueviolet;
+}
+#sec3{
+    background-color: bisque;
+}
+#sec4{
+    background-color: crimson;
+}
+#sec5{
+    background-color: chocolate;
+}
+.container {
+    background: #121212;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.img-shoes{
+    width: 500px;
+    margin-top: 10px;
+}
+.jordan-p{
+    text-align: left;
+    margin-top: 10px;
+
+}
+.sec4-btn{
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+.sec4-btn:active{
+    background-color: #121212;
+}
+#sec5 button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+#sec5 button:active{
+    background-color: #121212;
+}
+hr{
+    margin: 10px 0px 10px 0px;
+}
