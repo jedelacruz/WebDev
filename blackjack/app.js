@@ -7,7 +7,13 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
-console.log(cards)
+let player = {
+    name : "Je",
+    chips: 100
+}
+
+let playerEl = document.querySelector("#player-el")
+playerEl.textContent = player.name + ": $" + player.chips
 
 function getRandomCard(){
     let randomNumber = Math.floor( Math.random() * 13) + 1
@@ -30,6 +36,9 @@ function startGame(){
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
     renderGame()  
+    message = "You lose!"
+    playerEl.textContent = player.name + ": $" + player.chips
+
 }
 
 function renderGame(){
@@ -47,13 +56,16 @@ function renderGame(){
     else if(sum === 21 ) {
         message = "Congrats! You've got blackjack!"
         hasBlackJack = true
+        player.chips += 20
     }
     else{
         message = "You lose!"
         isAlive = false
+        player.chips -= 10
     }
 
     messageEl.textContent = message
+    playerEl.textContent = player.name + ": $" + player.chips
 
 }
 
